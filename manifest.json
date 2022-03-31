@@ -1,10 +1,10 @@
 {
-	"id": "obsidian-sample-plugin",
-	"name": "Sample Plugin",
+	"id": "similar-notes",
+	"name": "Similar Notes",
 	"version": "1.0.1",
 	"minAppVersion": "0.12.0",
-	"description": "This is a sample plugin for Obsidian. This plugin demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
+	"description": "Finds and links notes with similar topics to the current note as metadata.. In the future features may be added such as: Users can set filters on how many links to display, what data the program classifies as similar and what types of notes (ie. children, parents, siblings, grandparents) to display.",
+	"author": "tobythatsall",
+	"authorUrl": "https://tobysblog.me",
 	"isDesktopOnly": false
 }
