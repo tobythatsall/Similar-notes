@@ -4,7 +4,7 @@ import { App, Editor, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Set
 
 export default class MyPlugin extends Plugin {
 	onload() {
-
+		// thinking
 	}
 
 	onunload() {
