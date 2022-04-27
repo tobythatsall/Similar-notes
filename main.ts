@@ -5,16 +5,11 @@ let userTag = '#quotes';
 
 export default class MyPlugin extends Plugin {
 	onload() {
-		// search the vault for the userTag
-		
-		// Main functions
-
 		/** A function which maps an array element to some value. */
 		export type ArrayFunc<T, O> = (elem: T, index: number, arr: T[]) => O;
 
 		/** A function which compares two types. */
 		export type ArrayComparator<T> = (a: T, b: T) => number;
-
 		/**
 		 * Proxied interface which allows manipulating array-based data. All functions on a data array produce a NEW array
 		 * (i.e., the arrays are immutable).
@@ -111,9 +106,9 @@ export default class MyPlugin extends Plugin {
 			/** Automatic flattening of fields. Equivalent to implicitly calling `array.to("field")` */
 			[field: string]: any;
 		}
+		// search the vault for the userTag
 
-
-			// display results
+		// display results
 
 			
 	}
