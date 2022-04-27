@@ -2,6 +2,7 @@ import { App, Editor, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Set
 import { getAPI, Values } from "obsidian-dataview"
 
 let userTag = '#quotes';
+let currentNote = 
 
 export default class MyPlugin extends Plugin {
 	onload() {
@@ -107,10 +108,16 @@ export default class MyPlugin extends Plugin {
 			[field: string]: any;
 		}
 		// search the vault for the userTag
+		/*
+		function {
+			dataview: mutate list to only include notes containing userTag
+		}
+		filteredList = function
+		*/
 
 		// display results
-
-			
+		/* import filteredList into currentNote
+		*/
 	}
 
 	onunload() {
