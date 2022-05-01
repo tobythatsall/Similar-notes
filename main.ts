@@ -1,5 +1,5 @@
 import { App, Editor, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Setting } from 'obsidian';
-import { getAPI, Values } from "obsidian-dataview"
+import { getAPI } from "obsidian-dataview"
 
 let userTag = '#quotes';
 let currentNote = 
