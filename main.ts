@@ -110,6 +110,11 @@ export default class MyPlugin extends Plugin {
 		// search the vault for the userTag
 		/*
 		function {
+			where(predicate: ArrayFunc<T, boolean>): DataArray<T>;
+			/**
+			 * Return a string obtained by converting each element in the array to a string, and joining it with the
+			 * given separator (which defaults to ', ').
+			join(sep?: string): string;
 			dataview: mutate list to only include notes containing userTag
 		}
 		filteredList = function
